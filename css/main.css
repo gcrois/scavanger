@@ -1,0 +1,10 @@
+body, button {
+  font-family: sans-serif;
+  background-color: gray;
+  text-align: center;
+  font-size: 8vh;
+}
+
+button {
+  background-color: white;
+}

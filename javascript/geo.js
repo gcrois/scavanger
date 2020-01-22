@@ -21,7 +21,7 @@ function showPosition(position) {
 
 function testPosition(pos, allowed = r2) {
   let x = document.getElementById("demo");
-  if (((pos.coords.latitude - amb_lat) ** 2 + (pos.coords.longitude - amb_lon) ** 2) < allowed) {
+  if (((pos.coords.latitude - amb_lat) ** 2 + (pos.coords.longitude - amb_lon) ** 2) < allowed + .05) {
     x.innerHTML = "Yes";
     document.getElementById("body").style["background-color"] = "green";
   } else {
